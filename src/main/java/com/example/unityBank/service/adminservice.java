@@ -19,4 +19,6 @@ public class adminservice {
     public List<admin> getdata() {
         return repo.findAll();
     }
+
+
 }
