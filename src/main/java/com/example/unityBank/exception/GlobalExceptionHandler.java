@@ -10,6 +10,7 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(AccountNotFoundException.class)
     public String  handleAccountNotFound(AccountNotFoundException e){
+
         return  e.getMessage();
     }
 
